@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add an image to MediaStore"
+            android:layout_gravity="center"/>
+
+    <Button
+            android:id="@+id/addInAndroid10Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add an image to MediaStore in Android10"
+            android:layout_gravity="center" />
+
+    <Button
+            android:id="@+id/queryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Query images from MediaStore"
+            android:layout_gravity="center" />
+
+    <Button
+            android:id="@+id/removeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove an image from MediaStore"
+            android:layout_gravity="center" />
+
+
+</LinearLayout>
